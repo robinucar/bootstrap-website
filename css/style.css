@@ -120,7 +120,14 @@ transition: transform 1.5 ease;
 
 /*===== FIXED BACKGROUND IMG =====*/
 
+.fixed {
+  background: url('../img/matrix.jpg');
+  position: fixed;
+}
 
+.fixed-background {
+  padding: 10rem 0;
+}
 
 /*-- Emoji Navbar --*/
 
