@@ -11,7 +11,7 @@ body {
 .top-bar {
   background: #7aaec4;
   height: 2.8rem; /* 1rem = 16px */
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .top-bar a {
@@ -28,38 +28,38 @@ body {
 .navbar {
   font-size: 1.15rem;
   font-weight: 600;
-  letter-spacing: .1rem;
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  letter-spacing: 0.1rem;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
   z-index: 1;
 }
 
 .nav-item {
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .nav-link {
-  color: #5b5555!important;
+  color: #5b5555 !important;
 }
 
 .nav-link.active,
 .nav-link:hover {
-  color: #4981b3!important;
+  color: #4981b3 !important;
 }
 
 /*============= CAROUSEL =============*/
 
 #carousel {
-  box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 .carousel-inner {
-  max-height: 38rem!important;
+  max-height: 38rem !important;
 }
 /*---Change Carousel Transition Speed --*/
 .carousel-item-next,
 .carousel-item-prev,
 .carousel-item-active {
-transition: transform 1.5 ease;
+  transition: transform 1.5 ease;
 }
 
 /*-- Carousel Content --*/
@@ -72,23 +72,23 @@ transition: transform 1.5 ease;
 }
 
 .bg-custom {
-  background-color: rgba(0, 0, 0, .4);
+  background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
   border-radius: 10px;
 }
 
 .carousel-caption h1 {
   font-size: 3.8rem;
-  text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
+  text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);
 }
 
 .border-primary {
-  border-top: .2rem solid #4981b3!important;
+  border-top: 0.2rem solid #4981b3 !important;
 }
 
 .carousel-caption h3 {
   font-size: 2.2rem;
-  text-shadow: .1rem .1rem .2rem rgba(0, 0, 0, 1);
+  text-shadow: 0.1rem 0.1rem 0.2rem rgba(0, 0, 0, 1);
 }
 
 .btn-lg {
@@ -99,24 +99,21 @@ transition: transform 1.5 ease;
 }
 
 .btn-danger {
-  background-color: #AC2615;
-  border: .05rem solid #AC2615;
+  background-color: #ac2615;
+  border: 0.05rem solid #ac2615;
   outline: none;
 }
 
 .btn-primary {
   background-color: #4981b3;
-  border: .05rem solid #4981b3;
-
+  border: 0.05rem solid #4981b3;
 }
 
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #68a0d2!important;
-  border: .05rem solid #68a0d2!important;
-
+  background-color: #68a0d2 !important;
+  border: 0.05rem solid #68a0d2 !important;
 }
-
 
 /*===== FIXED BACKGROUND IMG =====*/
 
@@ -131,27 +128,30 @@ transition: transform 1.5 ease;
 
 /*-- Emoji Navbar --*/
 
+.emoji {
+  background-image: linear-gradient(to right, #4981b3, #ac2615);
+  min-height: 0 !important;
+  padding: 0.4rem !important;
+}
 
+.emoji .svg-inline--fa {
+  margin: 0 auto;
+  color: white;
+  font-size: 2rem;
+}
 
 /*============= FOOTER =============*/
 
-
-
 /*============= SOCKET =============*/
-
-
 
 /*============= MEDIA QUERIES =============*/
 
 /* Devices under 1199px (xl) */
 @media (max-width: 1199.98px) {
-
 }
 /* Devices under 768px (md) */
 @media (max-width: 767.98px) {
-
 }
-
 
 /*============ BOOTSTRAP BREAK POINTS:
 
@@ -173,7 +173,8 @@ Extra (xl) large devices (large desktops, 1200px and up)
 =============*/
 
 /*-- Bootstrap Mobile Gutter Fix --*/
-.row, .container-fluid {
+.row,
+.container-fluid {
   margin-left: 0px !important;
   margin-right: 0px !important;
 }
@@ -182,7 +183,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .fixed-background {
   position: relative;
   width: 100%;
-  z-index: 1000!important;
+  z-index: 1000 !important;
 }
 .fixed-wrap {
   clip: rect(0, auto, auto, 0);
@@ -194,7 +195,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
   z-index: -999 !important;
 }
 .fixed {
-  z-index: -999!important;
+  z-index: -999 !important;
   display: block;
   top: 0;
   left: 0;
